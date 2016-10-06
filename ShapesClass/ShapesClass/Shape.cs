@@ -62,12 +62,29 @@ namespace ShapesClass
     {
         public Square(double side) : base(side, 0)
         {
-
         }
 
         public override double Area()
         {
             return x * x;
         }
+    }
+
+    enum days
+    {
+        Monday,
+        Tuesday,
+        Wednesday
+    }
+
+    enum students
+    {
+        Aston,
+        Ike,
+        Q,
+        Ting,
+        Chris,
+        Jasmine,
+        Justin
     }
 }
